@@ -9,6 +9,7 @@ namespace Exchange_Things.Models
     {
         public int NumberOfCharsInName { get; set; }
         public int NumberOfCharsInDescription { get; set; }
+        public int NumberOfCharsInOwnerName { get; set; }
         public bool IsHidden { get; set; }
     }
 }

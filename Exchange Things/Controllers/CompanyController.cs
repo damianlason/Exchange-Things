@@ -19,6 +19,7 @@ namespace Exchange_Things.Controllers
 
                 NumberOfCharsInName = company.Name.Length,
                 NumberOfCharsInDescription = company.Description.Length,
+                NumberOfCharsInOwnerName = company.OwnerName.Length,
                 IsHidden = !company.IsVisible           
             };
 
