@@ -8,7 +8,7 @@ namespace Exchange_Things.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            return View("IndexAsync");
         }
 
         [HttpPost]
